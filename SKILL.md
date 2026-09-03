@@ -1,6 +1,6 @@
 ---
 name: self-esteem-classroom-publishing-skill
-description: Plan, write, serialize, and grow the 《자존감 교실》 book and education-content brand across Brunch, Instagram, blog, and Threads. Use for publication planning, chapter drafting, content repurposing, lesson-tip design, achievement-experience activities, engagement strategy, and editorial calendars.
+description: Plan, write, serialize, and grow the 《자존감 교실》 book and education-content brand across Brunch, Instagram, blog, and Threads. Use for publication planning, chapter drafting, content repurposing, lesson-tip design, achievement-experience activities, engagement strategy, Instagram carousel creation, and editorial calendars.
 ---
 
 # 《자존감 교실》 Publishing Skill
@@ -43,6 +43,19 @@ Every activity should identify:
 - **Instagram:** discovery, empathy, saves, shares; carousel/reel-friendly teaching ideas.
 - **Blog:** searchable archive of real cases, detailed lesson methods, downloadable or reusable resources.
 - **Threads:** conversation, questions, observations, quick experiments, community relationships.
+
+## Instagram carousel design
+When creating Instagram carousel visuals or prompts, **read `rules/instagram-carousel.md`** and follow it as the visual source of truth.
+
+Default visual direction:
+- pale peach/orange monochrome background
+- dark brown text
+- generous negative space
+- simple hand-drawn cartoon or warm animation-inspired character
+- short, emotionally resonant Korean copy
+- one message per slide
+- 4:5 vertical format, 1080 × 1350px for final posts
+- individual PNG files per slide; never combine multiple carousel pages into one deliverable image
 
 ## Engagement model
 **공감 → 팔로우**
@@ -91,4 +104,8 @@ When asked to create a campaign or chapter:
 8. Place it in the weekly/monthly schedule.
 9. Mark what should remain exclusive to the book.
 
+## Supporting files
 Read the supporting files in `strategy/`, `templates/`, and `rules/` for detailed guidance.
+For Instagram visual production specifically, use:
+- `rules/instagram-carousel.md`
+- `references/instagram-carousel/README.md`
