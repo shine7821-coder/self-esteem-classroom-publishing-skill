@@ -51,11 +51,15 @@ Default visual direction:
 - pale peach/orange monochrome background
 - dark brown text
 - generous negative space
-- simple hand-drawn cartoon or warm animation-inspired character
+- **Charlie Brown as the consistent primary character across the carousel series**
+- **Snoopy may appear as a supporting character when appropriate**
+- preserve Charlie Brown/Snoopy character continuity across cards: face proportions, clothing, line weight, palette, and relative scale
 - short, emotionally resonant Korean copy
 - one message per slide
 - 4:5 vertical format, 1080 × 1350px for final posts
 - individual PNG files per slide; never combine multiple carousel pages into one deliverable image
+
+When regenerating or correcting only one card, use an already approved card as the visual reference so the Charlie Brown/Snoopy appearance remains consistent with the rest of the series.
 
 ## Engagement model
 **공감 → 팔로우**
@@ -108,4 +112,5 @@ When asked to create a campaign or chapter:
 Read the supporting files in `strategy/`, `templates/`, and `rules/` for detailed guidance.
 For Instagram visual production specifically, use:
 - `rules/instagram-carousel.md`
+- `references/instagram-carousel/approved-reference-design.md`
 - `references/instagram-carousel/README.md`
