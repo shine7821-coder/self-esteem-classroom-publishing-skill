@@ -39,29 +39,39 @@ Every activity should identify:
 - next challenge
 
 ## Platform roles
-- **Brunch:** deep educational essays, author voice, book chapters in public-facing form. **For every new Brunch episode, do not draft immediately. First read `rules/brunch-author-voice.md`, identify the episode theme and its connection to the book, then conduct a 5–8 question interview with the author. The draft must be grounded in the author’s actual experience, thoughts, feelings, decisions, change, and reflection.**
+- **Brunch:** deep educational essays, author voice, book chapters in public-facing form. Before drafting, read both `rules/brunch-author-voice.md` and `brunch/series-map.md`. The new episode must differ from earlier episodes in core question, central claim, main episode, educational focus, author change, and reader takeaway. If 3 or more substantially overlap, redesign before drafting.
 - **Instagram:** discovery, empathy, saves, shares; carousel/reel-friendly teaching ideas.
 - **Blog:** searchable archive of real cases, detailed lesson methods, downloadable or reusable resources.
 - **Threads:** conversation, questions, observations, quick experiments, community relationships.
 
-## Brunch author-voice workflow
+## Brunch author-voice and anti-duplication workflow
 When asked to write a new Brunch episode:
-1. Identify the episode title/theme and its role in the book.
-2. Check connections to the previous and next episode when known.
-3. Read `rules/brunch-author-voice.md`.
-4. Ask the author 5–8 interview questions covering real experience, thoughts, feelings, and reflection.
-5. Do **not** write the full draft until the author has answered the interview sufficiently.
-6. If the answers lack a concrete scene, emotional response, turning point, or present reflection, ask only the missing follow-up questions.
-7. Build the draft around the author’s actual language and lived experience; never invent emotions, motives, dialogue, or memories.
-8. Ensure the author’s own change is visible, not only the child’s change.
-9. End with one specific reader question and select one representative sentence for reuse across Instagram, Threads, blog, and the book.
-10. Store completed Brunch episodes sequentially under `brunch/` when the user asks to save them.
+1. Read `brunch/series-map.md` first and identify what has already been used.
+2. Define one core question for the new episode.
+3. Build an internal differentiation card with: core question, core claim, representative scene, educational focus, author change, reader takeaway.
+4. If 3 or more of those overlap substantially with an earlier episode, redesign the episode before drafting.
+5. Read `rules/brunch-author-voice.md`.
+6. Normally ask the author 5–8 interview questions covering real experience, thoughts, feelings, decisions, and reflection.
+7. If the author says **“알아서 해줘”, “적절히 써줘”, “자료 보고 써줘”**, do not insist on further interview answers. Use, in order: current conversation, uploaded author records, existing Brunch drafts, series map, recurring teaching philosophy, and editorial inference.
+8. When writing under this delegation mode, do not fabricate a specific personal memory, date, child quote, or inner feeling as verified fact. If no verified episode exists, use generalized reflection, a composite/generalized classroom pattern, or a clearly editorial bridge instead of fake autobiography.
+9. Never reuse an earlier episode’s central anecdote as the main story. A previous episode may be referenced in only 1–2 bridge sentences before moving to new material.
+10. Treat the previous episode’s conclusion as the next episode’s starting premise, not as content to explain again.
+11. Ensure the author’s own change is visible, not only the child’s change.
+12. After drafting, run the five-question duplication test from `rules/brunch-author-voice.md`. If the episode cannot be distinguished from an earlier one with the title hidden, rewrite it.
+13. Select one representative sentence and one specific reader question.
+14. After the episode is confirmed, update `brunch/series-map.md` with its used material and editorial role.
+15. Store completed Brunch episodes sequentially under `brunch/` when the user asks to save them.
 
-Default Brunch narrative shape:
-**장면 → 감정 → 질문 → 과거의 나 → 전환점 → 실천의 변화 → 아이의 반응 → 현재의 성찰 → 독자 질문**
+### Brunch governing principle
+> **같은 메시지 + 다른 표현이 아니라, 같은 철학 + 다른 질문 + 다른 사건 + 다른 깨달음으로 쓴다.**
 
-The final quality test is:
+### Previous-conclusion rule
+> **이전 화의 결론은 다음 화의 출발점이지, 다시 설명해야 할 본문이 아니다.**
+
+### Final Brunch quality tests
 > **“이 글은 이 교실을 오래 살아낸 사람만 쓸 수 있다.”**
+
+> **“제목을 가리고 읽어도 이전 화와 분명히 구별된다.”**
 
 ## Instagram carousel design
 When creating Instagram carousel visuals or prompts, **read `rules/instagram-carousel.md`** and follow it as the visual source of truth.
@@ -105,7 +115,8 @@ When regenerating or correcting only one card, use an already approved card as t
 - Keep children’s identities private.
 - Do not duplicate the same post across platforms; adapt the same core idea to each platform’s role.
 - Preserve the book’s strongest material for the integrated narrative, reflection, and full case context.
-- For Brunch specifically, never manufacture the author’s inner life. Use interview responses as the source of truth for experience, emotion, motive, and reflection.
+- For Brunch, protect both **author voice** and **episode distinctiveness**.
+- Under “알아서 해줘” delegation, AI may actively shape structure, transitions, framing, metaphors, and reflective language, but should not turn invented specific memories into factual autobiography.
 
 ## Engagement rules
 Never end with only “댓글 남겨주세요.” Ask a specific question.
@@ -128,7 +139,7 @@ When asked to create a campaign or chapter:
 8. Place it in the weekly/monthly schedule.
 9. Mark what should remain exclusive to the book.
 
-For Brunch, override step 3 with the interview-first workflow above: **interview before drafting.**
+For Brunch, the Brunch author-voice and anti-duplication workflow above overrides the generic sequence.
 
 ## Supporting files
 Read the supporting files in `strategy/`, `templates/`, and `rules/` for detailed guidance.
@@ -136,6 +147,7 @@ Read the supporting files in `strategy/`, `templates/`, and `rules/` for detaile
 For Brunch writing specifically, use:
 - `rules/brunch-author-voice.md`
 - `templates/brunch-author-interview-template.md`
+- `brunch/series-map.md`
 - `brunch/README.md`
 
 For Instagram visual production specifically, use:
