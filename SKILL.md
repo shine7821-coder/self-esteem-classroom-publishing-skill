@@ -84,38 +84,56 @@ Before creating visuals:
 5. Automatically choose **illustration, table, or diagram** according to the function of each passage.
 6. Do not force a table or diagram when an illustration communicates the passage better. Four illustrations are valid when appropriate.
 7. Give each of the four assets a distinct editorial role; avoid four visually similar classroom scenes.
-8. Mark the exact insertion point in the manuscript using `[VISUAL 01~04]` labels.
+8. Mark the exact insertion point and a concise visual description in the manuscript using `[VISUAL 01~04]` labels.
 9. Create each visual as an independent asset. Do not combine all four into one collage.
-10. Present the four assets in the conversation in a swipeable sequence when the interface supports it, so the user can review Visual 01 → 04 individually.
-11. When the user requests a correction such as `3번 도식만 수정`, regenerate only that asset while preserving the visual continuity of the remaining set.
+10. Present the four assets together in the conversation when the interface supports grouped/swipeable image review.
+11. If the interface does not support such a review mode, still present the independent images directly; **never draw a fake carousel UI into the image itself.**
+12. When the user requests a correction such as `3번 도식만 수정`, regenerate only that asset while preserving the visual continuity of the remaining set.
 
 ### Visual selection principle
 > **말로 설명하지 않아도 느껴져야 하는 감정은 삽화로, 비교가 필요한 내용은 표로, 관계와 과정의 이해가 필요한 내용은 도식으로 번역한다.**
 
+## Mandatory Brunch illustration rules
+Whenever generating or editing Brunch illustrations, the following rules are **mandatory and override Instagram visual conventions**:
+
+1. Use the **approved watercolor + pen-drawing reference style**.
+2. **Do not use Charlie Brown, Snoopy, Peanuts, or Instagram carousel visual styling** in Brunch visuals.
+3. **Do not place `1/4`, card numbers, page numbers, progress labels, or carousel pagination inside the artwork.**
+4. **Do not create a fake carousel UI** by drawing thumbnails, arrows, page counters, gallery frames, or swipe controls into a single image.
+5. Every visual must be a **standalone image that can be inserted directly into a Brunch article**.
+6. After generation, present the visuals in the conversation in a reviewable grouped/swipeable format **when the interface supports it**. If it does not, show the independent images directly rather than simulating the UI.
+
 ### Brunch visual style
-Use a warm editorial-cartoon language inspired by the user-approved reference:
-- simple, clean cartoon linework
-- rounded and friendly characters
-- minimal facial detail
+Use the approved warm watercolor-and-pen editorial illustration language:
+- fine, hand-drawn pen lines
+- light transparent watercolor washes
+- bright white / ivory negative space
+- soft pastel palette: mint, blush pink, light blue, pale yellow, sage, peach
+- natural child and teacher poses
 - gentle expressions and subtle blush
-- warm cream / ivory / peach / apricot / warm-brown palette
-- selective accent colors only when needed
-- generous negative space
-- simplified backgrounds
-- relationship and emotion communicated through pose, distance, gaze, and composition
-- avoid photorealism, heavy 3D rendering, excessive texture, crowded backgrounds, and overly decorative infographics
+- warm, airy educational-essay mood
+- plants, books, learning materials, and restrained English-learning details when relevant
+- avoid photorealism, heavy 3D rendering, glossy effects, crowded backgrounds, and excessive decorative text
 
-Illustrations, tables, and diagrams must share one visual world:
-- **illustration = warm cartoon editorial art**
-- **table = warm editorial infographic**
-- **diagram = warm cartoon-style infographic**
+### Default Brunch classroom setting
+Unless the manuscript explicitly requires another place, depict a **small private English academy classroom**, not a school classroom.
 
-Keep recurring teacher character design consistent across a series. Student characters must be anonymized and should not reproduce a real child’s identifiable appearance.
+Default academy details:
+- room sized for about **10 students**
+- **white whiteboard** rather than a green chalkboard
+- teacher desk with a **laptop**
+- English books, phonics/reading materials, vocabulary cards, or simple English-learning posters
+- student desks and chairs in **light pastel tones**, not traditional wood-brown school furniture
+- warm, clean, intimate academy atmosphere
+- optional plants/bookshelves for softness, without clutter
+
+### Text inside illustrations
+Prefer little or no text inside illustrations. Do not fill student notebooks or worksheets with random alphabet letters merely to make them look educational. Use text only when it has a clear editorial purpose and is accurate.
 
 ### Brunch visual output rule
 A finalized Brunch episode normally includes:
 - manuscript
-- exact `[VISUAL 01~04]` insertion markers
+- exact `[VISUAL 01~04]` insertion markers with visual descriptions
 - four independent visual assets
 
 The visuals should expand understanding, emotion, or memory rather than merely repeat prose.
