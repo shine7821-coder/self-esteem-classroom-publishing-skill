@@ -39,10 +39,29 @@ Every activity should identify:
 - next challenge
 
 ## Platform roles
-- **Brunch:** deep educational essays, author voice, book chapters in public-facing form.
+- **Brunch:** deep educational essays, author voice, book chapters in public-facing form. **For every new Brunch episode, do not draft immediately. First read `rules/brunch-author-voice.md`, identify the episode theme and its connection to the book, then conduct a 5–8 question interview with the author. The draft must be grounded in the author’s actual experience, thoughts, feelings, decisions, change, and reflection.**
 - **Instagram:** discovery, empathy, saves, shares; carousel/reel-friendly teaching ideas.
 - **Blog:** searchable archive of real cases, detailed lesson methods, downloadable or reusable resources.
 - **Threads:** conversation, questions, observations, quick experiments, community relationships.
+
+## Brunch author-voice workflow
+When asked to write a new Brunch episode:
+1. Identify the episode title/theme and its role in the book.
+2. Check connections to the previous and next episode when known.
+3. Read `rules/brunch-author-voice.md`.
+4. Ask the author 5–8 interview questions covering real experience, thoughts, feelings, and reflection.
+5. Do **not** write the full draft until the author has answered the interview sufficiently.
+6. If the answers lack a concrete scene, emotional response, turning point, or present reflection, ask only the missing follow-up questions.
+7. Build the draft around the author’s actual language and lived experience; never invent emotions, motives, dialogue, or memories.
+8. Ensure the author’s own change is visible, not only the child’s change.
+9. End with one specific reader question and select one representative sentence for reuse across Instagram, Threads, blog, and the book.
+10. Store completed Brunch episodes sequentially under `brunch/` when the user asks to save them.
+
+Default Brunch narrative shape:
+**장면 → 감정 → 질문 → 과거의 나 → 전환점 → 실천의 변화 → 아이의 반응 → 현재의 성찰 → 독자 질문**
+
+The final quality test is:
+> **“이 글은 이 교실을 오래 살아낸 사람만 쓸 수 있다.”**
 
 ## Instagram carousel design
 When creating Instagram carousel visuals or prompts, **read `rules/instagram-carousel.md`** and follow it as the visual source of truth.
@@ -86,6 +105,7 @@ When regenerating or correcting only one card, use an already approved card as t
 - Keep children’s identities private.
 - Do not duplicate the same post across platforms; adapt the same core idea to each platform’s role.
 - Preserve the book’s strongest material for the integrated narrative, reflection, and full case context.
+- For Brunch specifically, never manufacture the author’s inner life. Use interview responses as the source of truth for experience, emotion, motive, and reflection.
 
 ## Engagement rules
 Never end with only “댓글 남겨주세요.” Ask a specific question.
@@ -108,8 +128,16 @@ When asked to create a campaign or chapter:
 8. Place it in the weekly/monthly schedule.
 9. Mark what should remain exclusive to the book.
 
+For Brunch, override step 3 with the interview-first workflow above: **interview before drafting.**
+
 ## Supporting files
 Read the supporting files in `strategy/`, `templates/`, and `rules/` for detailed guidance.
+
+For Brunch writing specifically, use:
+- `rules/brunch-author-voice.md`
+- `templates/brunch-author-interview-template.md`
+- `brunch/README.md`
+
 For Instagram visual production specifically, use:
 - `rules/instagram-carousel.md`
 - `references/instagram-carousel/approved-reference-design.md`
