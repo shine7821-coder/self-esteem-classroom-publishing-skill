@@ -1,35 +1,19 @@
 # 인스타그램 캐러셀 규칙
 
-> 이 규칙은 기존 SKILL.md의 Instagram carousel design과 references/instagram-carousel/README.md를 보완하며 충돌 시 기존 디자인 레퍼런스를 우선한다.
+> 이 파일은 호환성을 위해 남겨둔 legacy 안내 파일이다. 실제 제작 시에는 **`rules/instagram-carousel.md`를 최우선 규칙(source of truth)** 으로 사용하고, 시각적 판단은 **`references/instagram-carousel/approved-reference-design.md`** 를 함께 참고한다.
 
-## 기본 흐름
-1. 표지: 강한 한 문장 또는 질문
-2. 문제: 독자가 알아보는 상황
-3. 실제 장면
-4. 관점 전환
-5. 핵심 메시지
-6. 오늘 바로 적용할 수 있는 팁
-7. 요약
-8. CTA
-
-## 문장 규칙
+## 핵심 요약
+- 4:5 세로형, **1080×1350px**
+- 모든 카드는 동일한 크기
+- 따뜻한 연크림·연베이지·연주황 계열 단색 배경
+- 검정/짙은 브라운 텍스트 + 오렌지 포인트
+- 왼쪽 위 브라운 원형 페이지 번호
+- 짧은 문장, 넓은 여백, 단순한 손그림 카툰
 - 한 장에 하나의 핵심 메시지
-- 긴 문단보다 짧은 문장
-- 충분한 여백
-- 설명보다 장면
-- 마지막 CTA는 자연스러운 대화
+- 카드별 독립 PNG 저장
+- 여러 카드를 하나의 게시용 이미지로 합치지 않음
+- 한글 오타, 페이지 번호, 글자 잘림, 카드 겹침, 흰색 구분선, PNG 손상 여부를 게시 전 전수 검수
+- 수정 카드가 생기면 해당 카드를 교체한 뒤 전체 미리보기와 ZIP을 다시 구성
+- 마지막 브랜드 표기는 현재 승인 기준 **“북스타 써니쌤”**
 
-## 기존 SKILL.md의 시각 원칙
-- pale peach/orange monochrome background
-- dark brown text
-- generous negative space
-- simple hand-drawn cartoon or warm animation-inspired character
-- short, emotionally resonant Korean copy
-- 4:5 vertical, 1080×1350px
-- 슬라이드별 개별 PNG 파일
-- 여러 페이지를 하나의 이미지로 합치지 않음
-
-## CTA
-공감형: “여러분도 이런 순간이 있었나요?”
-실용형: “다음 수업을 위해 저장해 두세요.”
-자료형: “필요한 활동이 있다면 댓글로 알려주세요.”
+자세한 서사 구조, 10장/11장 재구성 방식, 한국어 QA, 최종 납품 규칙은 `rules/instagram-carousel.md`를 따른다.
