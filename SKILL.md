@@ -1,6 +1,6 @@
 ---
 name: self-esteem-classroom-publishing-skill
-description: Plan, write, serialize, and grow the 《자존감 교실》 book and education-content brand across Brunch, Instagram, blog, and Threads. Use for publication planning, chapter drafting, content repurposing, lesson-tip design, achievement-experience activities, engagement strategy, Instagram carousel creation, and editorial calendars.
+description: Plan, write, serialize, and grow the 《자존감 교실》 book and education-content brand across Brunch, Instagram, blog, and Threads. Use for publication planning, chapter drafting, content repurposing, lesson-tip design, achievement-experience activities, engagement strategy, Instagram carousel creation, Brunch visual production, and editorial calendars.
 ---
 
 # 《자존감 교실》 Publishing Skill
@@ -39,7 +39,7 @@ Every activity should identify:
 - next challenge
 
 ## Platform roles
-- **Brunch:** deep educational essays, author voice, book chapters in public-facing form. Before drafting, read both `rules/brunch-author-voice.md` and `brunch/series-map.md`. The new episode must differ from earlier episodes in core question, central claim, main episode, educational focus, author change, and reader takeaway. If 3 or more substantially overlap, redesign before drafting.
+- **Brunch:** deep educational essays, author voice, book chapters in public-facing form. Before drafting, read both `rules/brunch-author-voice.md` and `brunch/series-map.md`. The new episode must differ from earlier episodes in core question, central claim, main episode, educational focus, author change, and reader takeaway. If 3 or more substantially overlap, redesign before drafting. For a finalized Brunch episode, also read `rules/brunch-visual-editorial.md` and `references/brunch-visual-style.md` and prepare exactly four visual assets unless the user explicitly asks for text only.
 - **Instagram:** discovery, empathy, saves, shares; carousel/reel-friendly teaching ideas.
 - **Blog:** searchable archive of real cases, detailed lesson methods, downloadable or reusable resources.
 - **Threads:** conversation, questions, observations, quick experiments, community relationships.
@@ -72,6 +72,53 @@ When asked to write a new Brunch episode:
 > **“이 글은 이 교실을 오래 살아낸 사람만 쓸 수 있다.”**
 
 > **“제목을 가리고 읽어도 이전 화와 분명히 구별된다.”**
+
+## Brunch visual editorial workflow
+For a finalized Brunch episode, visual production is part of the default editorial workflow unless the user explicitly requests `글만`, `초고만`, or no visuals.
+
+Before creating visuals:
+1. Finish and confirm the manuscript first. **Do not make visuals before the writing is settled.**
+2. Read `rules/brunch-visual-editorial.md`.
+3. Read `references/brunch-visual-style.md` and `references/brunch-visual/approved-reference-design.md`.
+4. Use `templates/brunch-visual-plan.md` internally to identify exactly four visual points.
+5. Automatically choose **illustration, table, or diagram** according to the function of each passage.
+6. Do not force a table or diagram when an illustration communicates the passage better. Four illustrations are valid when appropriate.
+7. Give each of the four assets a distinct editorial role; avoid four visually similar classroom scenes.
+8. Mark the exact insertion point in the manuscript using `[VISUAL 01~04]` labels.
+9. Create each visual as an independent asset. Do not combine all four into one collage.
+10. Present the four assets in the conversation in a swipeable sequence when the interface supports it, so the user can review Visual 01 → 04 individually.
+11. When the user requests a correction such as `3번 도식만 수정`, regenerate only that asset while preserving the visual continuity of the remaining set.
+
+### Visual selection principle
+> **말로 설명하지 않아도 느껴져야 하는 감정은 삽화로, 비교가 필요한 내용은 표로, 관계와 과정의 이해가 필요한 내용은 도식으로 번역한다.**
+
+### Brunch visual style
+Use a warm editorial-cartoon language inspired by the user-approved reference:
+- simple, clean cartoon linework
+- rounded and friendly characters
+- minimal facial detail
+- gentle expressions and subtle blush
+- warm cream / ivory / peach / apricot / warm-brown palette
+- selective accent colors only when needed
+- generous negative space
+- simplified backgrounds
+- relationship and emotion communicated through pose, distance, gaze, and composition
+- avoid photorealism, heavy 3D rendering, excessive texture, crowded backgrounds, and overly decorative infographics
+
+Illustrations, tables, and diagrams must share one visual world:
+- **illustration = warm cartoon editorial art**
+- **table = warm editorial infographic**
+- **diagram = warm cartoon-style infographic**
+
+Keep recurring teacher character design consistent across a series. Student characters must be anonymized and should not reproduce a real child’s identifiable appearance.
+
+### Brunch visual output rule
+A finalized Brunch episode normally includes:
+- manuscript
+- exact `[VISUAL 01~04]` insertion markers
+- four independent visual assets
+
+The visuals should expand understanding, emotion, or memory rather than merely repeat prose.
 
 ## Instagram carousel design
 When creating Instagram carousel visuals or prompts, **read `rules/instagram-carousel.md`** and follow it as the visual source of truth.
@@ -139,7 +186,7 @@ When asked to create a campaign or chapter:
 8. Place it in the weekly/monthly schedule.
 9. Mark what should remain exclusive to the book.
 
-For Brunch, the Brunch author-voice and anti-duplication workflow above overrides the generic sequence.
+For Brunch, the Brunch author-voice and anti-duplication workflow above overrides the generic sequence. After the manuscript is finalized, apply the Brunch visual editorial workflow.
 
 ## Supporting files
 Read the supporting files in `strategy/`, `templates/`, and `rules/` for detailed guidance.
@@ -149,6 +196,12 @@ For Brunch writing specifically, use:
 - `templates/brunch-author-interview-template.md`
 - `brunch/series-map.md`
 - `brunch/README.md`
+
+For Brunch visual production specifically, use:
+- `rules/brunch-visual-editorial.md`
+- `references/brunch-visual-style.md`
+- `references/brunch-visual/approved-reference-design.md`
+- `templates/brunch-visual-plan.md`
 
 For Instagram visual production specifically, use:
 - `rules/instagram-carousel.md`
